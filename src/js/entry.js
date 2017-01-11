@@ -7,7 +7,7 @@ ManangeObj
      .addPage()
         .addComponent({
             width:280,
-            height:715,
+            height:360,
             css:{
                 position:'absolute',
                 opacity:0,
@@ -28,7 +28,7 @@ ManangeObj
           })
         .addComponent({
             width:605,
-            height:431,
+            height:360,
             css:{
                 position:'absolute',
                 opacity:0,
@@ -76,9 +76,10 @@ ManangeObj
                 color:'rgb(215,90,18)',
                 fontFamily:'微软雅黑',
                 fontSize:'26px',
-                paddingLeft:'10px',
-                top:300,
-                left:65,
+                top:'50%',
+                marginTop:'-32.5px',
+                left:'50%',
+                marginLeft:'-137.5px',
                 opacity:0,
             },
             animateIn:{
@@ -91,7 +92,7 @@ ManangeObj
           })
      .addPage()
         .addComponent({
-              width: 1000,
+              width: 900,
               height: 380,
               css: {
                 position:'absolute',
@@ -132,20 +133,19 @@ ManangeObj
            })
         .addComponent({
              width: 600,
-             height:200,
              text:'你是不小心下落到人间的小天使',
              css:{
                position:'absolute',
-               left:53,
+               left:'50%',
+               marginLeft:'-150px',
                bottom:-10,
                opacity:0,
                color:'rgb(152,92,152)',
                fontFamily:'微软雅黑',
                fontSize:'26px',
-               paddingLeft:'10px',
              },
              animateIn:{
-                bottom:120,
+                bottom:100,
                 opacity:1,
               },
              animateOut:{
@@ -156,20 +156,19 @@ ManangeObj
            })
         .addComponent({
              width: 600,
-             height:100,
              text:'而成了我最美丽的邂逅...',
              css:{
                position:'absolute',
-               left:53,
+               left:'50%',
+               marginLeft:'-150px',
                bottom:-10,
                opacity:0,
                color:'rgb(152,92,152)',
                fontFamily:'微软雅黑',
                fontSize:'26px',
-               paddingLeft:'10px',
              },
              animateIn:{
-                bottom:70,
+                bottom:50,
                 opacity:1,
               },
              animateOut:{
@@ -311,7 +310,7 @@ ManangeObj
             delay:20,
          })
         .addComponent({
-            width:400,
+            width:350,
             height:290,
             css:{
                 position:'absolute',
@@ -336,7 +335,7 @@ ManangeObj
            text:'高兴的，哭泣的，烦恼的,都在我的心头',
            css: {
              position: 'absolute',
-             top:315,
+             top:290,
              left:25,
              opacity:0,
              color: 'rgb(0,0,0)',
@@ -352,7 +351,7 @@ ManangeObj
             delay:1500,
          })
         .addComponent({
-            width:400,
+            width:350,
             height:290,
             css:{
                 position:'absolute',
@@ -372,12 +371,12 @@ ManangeObj
             delay:500,
          })
         .addComponent({
-            width:400,
+            width:350,
             height:290,
             css:{
                 position:'absolute',
                 opacity:0.75,
-                bottom:185,
+                bottom:160,
                 left:-200,
                 backgroundImage:'url(./src/img/a8.jpg)',
             },
@@ -392,12 +391,12 @@ ManangeObj
             delay:500,
          })
         .addComponent({
-            width:400,
+            width:350,
             height:290,
             css:{
                 position:'absolute',
                 opacity:0.75,
-                bottom:185,
+                bottom:160,
                 right:-200,
                 backgroundImage:'url(./src/img/a7.jpg)',
             },
@@ -412,7 +411,6 @@ ManangeObj
             delay:500,
          })
         .addComponent({
-            name:'car',
             width:400,
             height:290,
             css:{
@@ -530,7 +528,7 @@ ManangeObj
                 backgroundImage:'url(./src/img/4-1.png)',
             },
             animateIn:{
-                top:450,
+                top:400,
                 opacity:1,
             },
             animateOut:{
@@ -558,14 +556,16 @@ ManangeObj
                 opacity:0,
             },
             delay:2000,
-        })
+         })
      .addPage()
         .addComponent({
-          width:830,
-          height: 430,
+          width:600,
+          height: 310,
           css:{
               position:'absolute',
               opacity:0,
+              left:'50%',
+              marginLeft:'-150px',
               backgroundImage:'url(./src/img/5-1.png)',
           },
           animateIn:{
@@ -577,12 +577,12 @@ ManangeObj
           delay:500,
           })
         .addComponent({
-          width:360,
+          width:335,
           height: 480,
           css:{
               position:'absolute',
               opacity:0,
-              top:220,
+              top:167,
               left:20,
               backgroundImage:'url(./src/img/a9.jpg)',
           },
@@ -595,12 +595,12 @@ ManangeObj
           delay:1000,
          })
         .addComponent({
-          width:360,
+          width:334,
           height: 480,
           css:{
               position:'absolute',
               opacity:0,
-              top:220,
+              top:167,
               right:20,
               backgroundImage:'url(./src/img/a10.jpg)',
           },
@@ -613,13 +613,14 @@ ManangeObj
           delay:1000,
          })
         .addComponent({
-          width:750,
+          width:670,
           height: 480,
           css:{
               position:'absolute',
               opacity:0,
               bottom:20,
-              left:20,
+              left:'50%',
+              marginLeft:'-167.5px',
               backgroundImage:'url(./src/img/a8.jpg)',
           },
           animateIn:{
@@ -975,7 +976,7 @@ ManangeObj
             delay:5500,
           })
       .addComponent({
-          width: 200,
+          width: 100,
           height: 200,
           css:{
             position: 'absolute',
@@ -993,7 +994,7 @@ ManangeObj
             delay:6000,
           })
       .addComponent({
-          width: 200,
+          width: 100,
           height: 144,
           css:{
             position: 'absolute',
@@ -1011,7 +1012,7 @@ ManangeObj
             delay:6500,
         })
       .addComponent({
-          width: 200,
+          width: 100,
           height: 144,
           css:{
             position: 'absolute',
@@ -1029,7 +1030,7 @@ ManangeObj
             delay:7000,
         })
       .addComponent({
-          width: 200,
+          width: 100,
           height: 144,
           css:{
             position: 'absolute',
@@ -1047,7 +1048,7 @@ ManangeObj
             delay:7500,
         })
       .addComponent({
-          width: 200,
+          width: 128,
           height: 144,
           css:{
             position: 'absolute',
@@ -1090,13 +1091,13 @@ ManangeObj
           css:{
             position: 'absolute',
             opacity: 0,
-            padding: 20,
-            left:15,
+            left:'50%',
+            marginLeft:'-185px',
             fontFamily:'微软黑体',
             fontWeight:700,
             fontSize:'24px',
             color:'rgb(99,3,118)',
-            bottom:30,
+            bottom:10,
           },
            animateIn:{
                 opacity:1,
@@ -1148,24 +1149,26 @@ ManangeObj
           delay:300,
         })
       .addComponent({
-          width: 600,
-          height: 100,
+          width: 400,
+          height:100,
           text:'未完待续.....',
           css:{
             position: 'absolute',
             opacity: 0,
             color:'rgb(138,62,3)',
-            right:-35,
-            top:340,
+            left:-10,
+            top:'50%',
+            marginTop:'-25px',
             fontFamily:'微软黑体',
             fontSize:'26px',
           },
           animateIn:{
-              right:0,
+              left:'50%',
+              marginLeft:'-75px',
               opacity:1,
           },
           animateOut:{
-              right:-35,
+              left:-10,
               opacity:0,
           },
           delay:1000,
